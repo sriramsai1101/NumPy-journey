@@ -1,0 +1,10 @@
+import numpy as np 
+arr=np.arange(1,26)
+newarray=arr.reshape((5,5))
+print(newarray)
+print(newarray.ndim)
+print(newarray.size)
+print(np.max(newarray))
+print(np.min(newarray))
+print(np.mean(newarray))
+print(newarray.sum())
