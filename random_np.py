@@ -1,0 +1,11 @@
+import numpy as np
+arr=np.random.randint(1,50,(4,4))
+print(arr)
+b=np.random.randint(100,200,6)
+print(b)
+c=np.random.rand(2,3)
+print(c)
+d=np.random.randn(3,3)
+print(d)
+f=np.random.choice(["apple","banana","mango","orange"])
+print(f)
